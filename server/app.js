@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const translateRoutes = require('./routes/translateRoutes');
+const translateRoutes = require('./src/routes/translateRoutes');
 
 const app = express();
 
