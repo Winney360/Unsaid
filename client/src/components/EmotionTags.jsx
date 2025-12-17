@@ -24,7 +24,7 @@ const emotionColors = {
   overwhelm: 'bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-900/30 dark:text-fuchsia-300',
   
   // Default
-  default: 'bg-calm-purple-100 text-calm-purple-800 dark:bg-dark-purple-800 dark:text-calm-purple-300'
+  default: 'bg-calm-purple-100 text-calm-purple-800 dark:bg-purple-800 dark:text-calm-purple-300'
 };
 
 const EmotionTags = ({ emotions }) => {

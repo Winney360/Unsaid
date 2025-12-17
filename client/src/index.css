@@ -111,3 +111,7 @@
 .dark ::-webkit-scrollbar-thumb:hover {
   background: #5b21b6;
 }
+
+body {
+  font-family: 'Adevas', sans-serif;
+}

@@ -54,7 +54,7 @@ const EmotionInput = ({ onTranslate, isLoading }) => {
             value={text}
             onChange={handleInputChange}
             placeholder="Type how you're feeling... no filters needed"
-            className="w-full h-40 p-4 text-lg border-2 border-calm-purple-200 dark:border-dark-purple-600 rounded-xl bg-white dark:bg-dark-purple-900 text-gray-800 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 resize-none focus:outline-none focus:border-calm-purple-500 dark:focus:border-calm-purple-400 focus:ring-2 focus:ring-calm-purple-200 dark:focus:ring-calm-purple-800 transition-all duration-300 shadow-sm hover:shadow-md"
+            className="w-full h-40 p-4 text-lg border-2 border-calm-purple-200 dark:border-dark-purple-600 rounded-xl bg-white dark:bg-purple-900 text-gray-800 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500 resize-none focus:outline-none focus:border-calm-purple-500 dark:focus:border-calm-purple-400 focus:ring-2 focus:ring-calm-purple-200 dark:focus:ring-calm-purple-800 transition-all duration-300 shadow-sm hover:shadow-md"
             disabled={isLoading}
             whileFocus={{ scale: 1.005 }}
           />
@@ -94,7 +94,7 @@ const EmotionInput = ({ onTranslate, isLoading }) => {
                 onClick={() => handleExampleClick(example)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-3 py-1.5 text-sm bg-calm-blue-50 dark:bg-dark-purple-800 text-calm-blue-700 dark:text-calm-blue-300 rounded-lg border border-calm-blue-200 dark:border-dark-purple-700 hover:bg-calm-blue-100 dark:hover:bg-dark-purple-700 transition-all duration-300"
+                className="px-3 py-1.5 text-sm bg-calm-blue-50 dark:bg-purple-800 text-calm-blue-700 dark:text-calm-blue-300 rounded-lg border border-calm-blue-200 dark:border-purple-700 hover:bg-calm-blue-100 dark:hover:bg-purple-700 transition-all duration-300"
                 disabled={isLoading}
               >
                 {example.substring(0, 40)}...
@@ -121,7 +121,7 @@ const EmotionInput = ({ onTranslate, isLoading }) => {
             </>
           ) : (
             <>
-              <Send className="w-5 h-5" />
+              <Send className="w-5 h-5 " />
               Translate Emotion
             </>
           )}

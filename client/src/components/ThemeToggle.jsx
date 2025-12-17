@@ -9,7 +9,7 @@ const ThemeToggle = () => {
   return (
     <motion.button
       onClick={toggleTheme}
-      className="relative p-2 rounded-full bg-calm-purple-100 dark:bg-dark-purple-800 hover:bg-calm-purple-200 dark:hover:bg-dark-purple-700 transition-all duration-300"
+      className="relative p-2 rounded-full bg-calm-purple-100 dark:bg-purple-800 hover:bg-calm-purple-200 dark:hover:bg-purple-700 transition-all duration-300"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       aria-label="Toggle theme"
