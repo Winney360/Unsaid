@@ -23,10 +23,10 @@ _The bridge between what you feel and what you can say._
 Many people struggle to express difficult emotions clearly. When emotions overwhelm us, words often come out messy, confusing, or unintentionally hurtful — not because we intend harm, but because we lack the language to express complex feelings safely.
 
 Existing tools fall short:
-- Therapy apps require long-term commitment and diagnosis
-- Journaling apps stop at writing, not communication
-- AI chatbots give advice instead of clarity
-- Few tools focus purely on emotional translation without judgment
+❌ Therapy apps require long-term commitment and diagnosis
+❌ Journaling apps stop at writing, not communication
+❌ AI chatbots give advice instead of clarity
+❌ Few tools focus purely on emotional translation without judgment
 
 ---
 
@@ -128,7 +128,6 @@ cd unsaid
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/unsaid_db
 GEMINI_API_KEY=your_api_key_here
-USE_MOCK=true
 ```
 
 ---
@@ -147,4 +146,4 @@ MIT License
 
 ---
 
-💜 Built with compassion, powered by AI
+
