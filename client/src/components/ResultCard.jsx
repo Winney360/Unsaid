@@ -208,7 +208,7 @@ const ResultCard = ({ translation }) => {
           style={{ backgroundSize: "200% 200%" }}
         />
         
-        <div className="relative bg-linear-to-br from-calm-blue-50 to-calm-purple-50 dark:from-dark-purple-900 dark:to-dark-purple-800 rounded-xl p-6 border border-calm-blue-200 dark:border-dark-purple-700 shadow-lg">
+        <div className="relative bg-linear-to-br from-calm-blue-50 to-calm-purple-50 dark:from-purple-900 dark:to-purple-800 rounded-xl p-6 border border-calm-blue-200 dark:border-purple-700 shadow-lg">
           <div className="flex items-center gap-3 mb-4">
             <motion.div
               variants={iconVariants}
@@ -239,7 +239,7 @@ const ResultCard = ({ translation }) => {
                   initial={{ width: "100%" }}
                   animate={{ width: "0%" }}
                   transition={{ duration: 1, ease: "easeInOut" }}
-                  className="absolute inset-0 bg-linear-to-r from-calm-blue-50 to-transparent dark:from-dark-purple-800"
+                  className="absolute inset-0 bg-linear-to-r from-calm-blue-50 to-transparent dark:from-purple-800"
                 />
                 <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed p-4 bg-white/50 dark:bg-black/20 rounded-lg">
                   "{clearExpression}"
@@ -256,7 +256,7 @@ const ResultCard = ({ translation }) => {
         whileHover="hover"
         className="relative overflow-hidden group"
       >
-        <div className="relative bg-linear-to-br from-calm-purple-50 to-pink-50 dark:from-dark-purple-900 dark:to-pink-900/20 rounded-xl p-6 border border-calm-purple-200 dark:border-dark-purple-700 shadow-lg">
+        <div className="relative bg-linear-to-br from-calm-purple-50 to-pink-50 dark:from-purple-900 dark:to-pink-900/20 rounded-xl p-6 border border-calm-purple-200 dark:border-purple-700 shadow-lg">
           <div className="flex items-center gap-3 mb-4">
             <motion.div
               variants={iconVariants}
