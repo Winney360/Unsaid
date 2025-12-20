@@ -12,7 +12,7 @@
 **Translate raw emotions into clear, respectful language.**  
 _The bridge between what you feel and what you can say._
 
-🚀 Live Demo · 📱 Video Demo · 💻 Development · 📄 Documentation
+🚀 [Live Demo](https://unsaid-green.vercel.app) · 📱 [Video Demo](https://youtu.be/lzt9JcsQtzY) · 💻 [Github Link](https://github.com/Winney360/Unsaid.git) 
 
 </div>
 
@@ -116,7 +116,7 @@ RETURN JSON ONLY.
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/unsaid.git
+git clone https://github.com/Winney360/Unsaid.git
 cd unsaid
 ```
 
